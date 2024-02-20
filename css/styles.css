@@ -240,6 +240,7 @@ p {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -264,6 +265,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-item-value {
@@ -277,7 +279,13 @@ p {
 
 .final {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
+
+.logo.down {
+  margin-bottom: 16px;
+}
+
 .logo-sec-col {
   color: #f4f4fd;
 }
@@ -286,6 +294,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .visually-hidden {
