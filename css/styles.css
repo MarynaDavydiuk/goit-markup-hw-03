@@ -58,7 +58,6 @@ p {
   display: flex;
   height: 74px;
   justify-content: space-between;
-  padding: 24px 0;
 }
 
 .page-nav {
@@ -69,11 +68,13 @@ p {
 .menu {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .head-adres-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .logo {
@@ -218,7 +219,7 @@ p {
 }
 
 .team-item .content {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 .team-item-title {
