@@ -50,6 +50,10 @@ p {
 
 /*=======navigation style=======*/
 
+.top-line {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .container.header-container {
   display: flex;
   height: 74px;
@@ -199,7 +203,7 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 78px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -210,6 +214,7 @@ p {
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 24px * 3) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item .content {
